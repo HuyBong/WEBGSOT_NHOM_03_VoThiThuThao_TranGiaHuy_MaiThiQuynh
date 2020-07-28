@@ -1,0 +1,72 @@
+@font-face{
+    font-family:SFDisplay-Thin;
+    src: url(SFUIDisplay/SFUIDisplay-Thin.otf);
+}
+@font-face{
+    font-family:SFDisplay-Bold;
+    src: url(SFUIDisplay/SFUIDisplay-Bold.ttf);
+}
+@font-face{
+    font-family:SFDisplay-Black;
+    src: url(SFUIDisplay/SFUIDisplay-Black.otf);
+}
+@font-face{
+    font-family:SFDisplay-Medium;
+    src: url(SFUIDisplay/SFUIDisplay-Medium.otf);
+}
+@font-face{
+    font-family:SFDisplay-Heavy;
+    src: url(SFUIDisplay/SFUIDisplay-Heavy.otf);
+}
+@font-face{
+    font-family:SFDisplay-Light;
+    src: url(SFUIDisplay/SFUIDisplay-Light.ttf);
+}
+@font-face{
+    font-family:SFDisplay-Regular;
+    src: url(SFUIDisplay/SFUIDisplay-Regular.otf);
+}
+@font-face{
+    font-family:SFDisplay-SemiBold;
+    src: url(SFUIDisplay/SFUIDisplay-Semibold.otf);
+}
+@font-face{
+    font-family:SFDisplay-UltraLight;
+    src: url(SFUIDisplay/SFUIDisplay-Ultralight.otf);
+}
+@font-face{
+    font-family: Aileron-Bold;
+    src: url(aileron/Aileron-Bold.otf);
+}
+@font-face{
+    font-family: Aileron-Black;
+    src: url(aileron/Aileron-Black.otf);
+}
+@font-face{
+    font-family: Aileron-Medium;
+    src: url(aileron/Aileron-Medium.otf);
+}
+@font-face{
+    font-family: Aileron-SemiBold;
+    src: url(aileron/Aileron-SemiBold.otf);
+}
+@font-face{
+    font-family: Aileron-Regular;
+    src: url(aileron/Aileron-Regular.otf);
+}
+@font-face{
+    font-family: MyriadPro-Bold;
+    src: url(MyriadPro/MYRIADPRO-BOLD.OTF);
+}
+@font-face{
+    font-family: MyriadPro-Black;
+    src: url(MyriadPro/MYRIADPRO-BLACK_0.OTF);
+}
+@font-face{
+    font-family: MyriadPro-Regular;
+    src: url(MyriadPro/MYRIADPRO-REGULAR.OTF);
+}
+@font-face{
+    font-family: MyriadPro-SemiBold;
+    src: url(MyriadPro/MYRIADPRO-SEMIBOLD.OTF);
+}
