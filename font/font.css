@@ -70,3 +70,7 @@
     font-family: MyriadPro-SemiBold;
     src: url(MyriadPro/MYRIADPRO-SEMIBOLD.OTF);
 }
+@font-face{
+    font-family: iCielSamsungSharpSans-Bold;
+    src: url(samsung-sharp-sans-cufonfonts/samsungsharpsans-bold.otf);
+}
