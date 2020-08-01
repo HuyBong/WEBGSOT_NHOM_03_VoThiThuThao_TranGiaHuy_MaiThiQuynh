@@ -15,15 +15,95 @@
 
 <body>
     <div class="content">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top">
+            <div class="container">
+                <img src="img/logo2-3 (1).png" style="width: 8%;height: 100%;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto  ">
+                        <li class="nav-item active">
+                            <a class="nav-link " href="#">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DỊCH VỤ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DỰ ÁN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BẢNG TIN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TUYỂN DỤNG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LIÊN HỆ</a>
+                        </li>
+                        <li class="nav-item" style="padding-top:5px;padding-left:5px">
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn"
+                                    style="background: transparent;color: white;outline: none;border: none"><i
+                                        class="fa fa-search"></i></button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header" style="width: auto;height: auto;">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="position: relative;">
+                <ol class="carousel-indicators ">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><span>1</span></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"><span>2</span></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"><span>3</span></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"><span>4</span></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="4"><span>5</span></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/trang chu/xuat file2-01.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/trang chu/xuat file2-01.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/trang chu/xuat file2-01.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/trang chu/xuat file2-01.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/trang chu/xuat file2-01.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="btn-group-vertical" role="group" aria-label="Basic example"
+                style="position: absolute;left:2% ;top:61%">
+                <button class="btn" style="color:white"><i class="fa fa-phone"></i></button>
+                <button class="btn" style="color:white"><i class="fa fa-user"></i></button>
+                <p style="color:white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</p>
+                <button class="btn" style="color:white"><i class="fa fa-facebook"></i></button>
+                <button class="btn" style="color:white"><i class="fa fa-instagram"></i></button>
+                <button class="btn" style="color:white"><i class="fa fa-behance"></i></button>
+                <p style="color:white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</p>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 col-12">
-                    <hr class="hr-long" style="margin-right: 30px;">
+                    <hr class="hr-long">
                     <hr class="hr content-hr1">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6 content-col1">
-                            <div class="row pl-0 pr-0 ">
-                                <p class="text-my-semi-5 content-card-text1">
+                            <div class="row row-1 ">
+                                <p class="text-my-semi-5">
                                     CATEGORY ARCHIVES
                                     TIN TỨC VÀ SỰ KIỆN
                                 </p>
@@ -31,20 +111,20 @@
                                     <div class="card-img-top content-card-img">
                                         <img class="content-img" src="img/trang7/WEB SITE11-50.png">
                                     </div>
-                                    <div class="card-body p-0 m-0">
-                                        <p class="text-my-semi-6 text-center pl-0 pr-0 pt-1 mb-2 pl-4 pr-4">
+                                    <div class="card-body card-body-1">
+                                        <p class="text-my-semi-6">
                                             ĐÂU LÀ ĐỊA CHỈ CUNG CẤP PHẦN MỀM
                                             NHÂN SỰ GIÁ TỐT NHẤT HIỆN NAY?
                                         </p>
-                                        <hr class="hr4 p-0 mb-0">
-                                        <p class="text-my-regular text-center ">
+                                        <hr class="hr4">
+                                        <p class="text-my-regular">
                                             Hiện nay, khi mà các doanh nghiệp đã hiểu rõ được tầm
                                             quan trọng của phần mềm nhân sự thì nhu cầu mua chúng
                                             ngày càng tăng cao.
                                         </p>
                                         <p class="text-right mb-0">
                                             <span class="text-my-regular-3">MON |</span>
-                                            <span class="text-my-bold-1 mr-3">
+                                            <span class="text-my-bold-1">
                                                 02.07.2020
                                             </span>
                                             <span class="content-3-col-1-button "><a href=""><img
@@ -53,18 +133,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row pl-0 pr-0 mt-5">
+                            <div class="row row-2">
                                 <div class="card content-card">
                                     <div class="card-img-top content-card-img">
-                                        <img class="content-img1" src="img/trang7/WEB SITE11-54.png">
+                                        <img class="content-img" src="img/trang7/WEB SITE11-54.png">
                                     </div>
-                                    <div class="card-body p-0 m-0">
-                                        <p class="text-my-semi-6 text-center pl-0 pr-0 pt-1 mb-2 pl-4 pr-4">
+                                    <div class="card-body card-body-1">
+                                        <p class="text-my-semi-6">
                                             LƯU Ý VÀNG BẠN NÊN BIẾT KHI TÌM CÔNG TY
                                             CUNG CẤP PHẦN MỀM QUẢN LÝ NHÂN SỰ
                                         </p>
-                                        <hr class="hr4 p-0 mb-0">
-                                        <p class="text-my-regular text-center ">
+                                        <hr class="hr4">
+                                        <p class="text-my-regular">
                                             Hiện nay, khi mà các doanh nghiệp đã hiểu rõ được tầm
                                             quan trọng của phần mềm nhân sự thì nhu cầu mua chúng
                                             ngày càng tăng cao.
@@ -80,25 +160,25 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row pl-0 pr-0 mt-5">
+                            <div class="row row-2">
                                 <div class="card content-card">
                                     <div class="card-img-top content-card-img">
                                         <img class="content-img" src="img/trang7/WEB SITE11-58.png">
                                     </div>
-                                    <div class="card-body p-0 m-0">
-                                        <p class="text-my-semi-6 text-center pl-0 pr-0 pt-1 mb-2 pl-4 pr-4">
+                                    <div class="card-body card-body-1">
+                                        <p class="text-my-semi-6">
                                             NHỮNG CÁCH CÓ ĐƯỢC BẢNG BÁO GIÁ
                                             PHẦN MỀM GIS HIỆU QUẢ
                                         </p>
-                                        <hr class="hr4 p-0 mb-0">
-                                        <p class="text-my-regular text-center ">
+                                        <hr class="hr4">
+                                        <p class="text-my-regular">
                                             Hiện nay, khi mà các doanh nghiệp đã hiểu rõ được tầm
                                             quan trọng của phần mềm nhân sự thì nhu cầu mua chúng
                                             ngày càng tăng cao.
                                         </p>
                                         <p class="text-right mb-0">
                                             <span class="text-my-regular-3">MON |</span>
-                                            <span class="text-my-bold-1 mr-3">
+                                            <span class="text-my-bold-1">
                                                 02.07.2020
                                             </span>
                                             <span class="content-3-col-1-button "><a href=""><img
@@ -109,25 +189,25 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6 content-col2">
-                            <div class="row pl-0 pr-0">
+                            <div class="row row-1">
                                 <div class="card content-card">
                                     <div class="card-img-top content-card-img">
                                         <img class="content-img" src="img/trang7/WEB SITE11-52.png">
                                     </div>
-                                    <div class="card-body p-0 m-0">
-                                        <p class="text-my-semi-6 text-center pl-0 pr-0 pt-3 mb-2 pl-4 pr-4">
+                                    <div class="card-body card-body-1">
+                                        <p class="text-my-semi-6">
                                             GSOT – CÔNG TY PHẦN MỀM
                                             CHUYÊN NGHIỆP NHẤT TẠI TP.HCM
                                         </p>
-                                        <hr class="hr4 p-0 mb-0">
-                                        <p class="text-my-regular text-center ">
+                                        <hr class="hr4">
+                                        <p class="text-my-regular ">
                                             Hiện nay, khi mà các doanh nghiệp đã hiểu rõ được tầm
                                             quan trọng của phần mềm nhân sự thì nhu cầu mua chúng
                                             ngày càng tăng cao.
                                         </p>
-                                        <p class="text-right mb-0">
+                                        <p class="text-right">
                                             <span class="text-my-regular-3">MON |</span>
-                                            <span class="text-my-bold-1 mr-3">
+                                            <span class="text-my-bold-1">
                                                 02.07.2020
                                             </span>
                                             <span class="content-3-col-1-button "><a href=""><img
@@ -136,18 +216,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row pl-0 pr-0 mt-5">
+                            <div class="row row-2">
                                 <div class="card content-card">
                                     <div class="card-img-top content-card-img">
                                         <img class="content-img" src="img/trang7/WEB SITE11-56.png">
                                     </div>
-                                    <div class="card-body p-0 m-0">
-                                        <p class="text-my-semi-6 text-center pl-0 pr-0 pt-3 mb-2 pl-4 pr-4">
+                                    <div class="card-body card-body-1">
+                                        <p class="text-my-semi-6 ">
                                             ĐÂU LÀ ĐỊA CHỈ CUNG CẤP PHẦN MỀM
                                             NHÂN SỰ GIÁ TỐT NHẤT HIỆN NAY?
                                         </p>
-                                        <hr class="hr4 p-0 mb-0">
-                                        <p class="text-my-regular text-center ">
+                                        <hr class="hr4">
+                                        <p class="text-my-regular">
                                             Hiện nay, khi mà các doanh nghiệp đã hiểu rõ được tầm
                                             quan trọng của phần mềm nhân sự thì nhu cầu mua chúng
                                             ngày càng tăng cao.
@@ -155,7 +235,7 @@
                                         </p>
                                         <p class="text-right mb-0">
                                             <span class="text-my-regular-3">MON |</span>
-                                            <span class="text-my-bold-1 mr-3">
+                                            <span class="text-my-bold-1">
                                                 02.07.2020
                                             </span>
                                             <span class="content-3-col-1-button "><a href=""><img
@@ -164,26 +244,26 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row pl-0 pr-0 mt-5">
+                            <div class="row row-2">
                                 <div class="card content-card">
                                     <div class="card-img-top content-card-img">
-                                        <img class="content-img2" src="img/trang7/WEB SITE11-60.png">
+                                        <img class="content-img1" src="img/trang7/WEB SITE11-60.png">
                                     </div>
-                                    <div class="card-body p-0 m-0">
-                                        <p class="text-my-semi-6 text-center pl-0 pr-0 pt-3 mb-2 pl-4 pr-4">
+                                    <div class="card-body card-body-1">
+                                        <p class="text-my-semi-6">
                                             PHẦN MỀM ERP LÀ GÌ?
                                         </p>
-                                        <hr class="hr4 p-0 mb-0">
-                                        <p class="text-my-regular text-center pt-3">
+                                        <hr class="hr4">
+                                        <p class="text-my-regular">
                                             Hầu hết các nhà quản trị chắc hẳn đã khá quen thuộc
                                             với thuật ngữ ERP – một trong những hệ thống đóng vai trò
                                             xương sống trong các doanh nghiệp kinh doanh. Mặc dù là
                                             trước đây hay cho đến thời buổi công nghiệp 4.0 đang trở
                                             thành làn sóng lớn thì ERP vẫn được ứng dụng rất nhiều.
                                         </p>
-                                        <p class="text-right mb-0 content-col2-row3">
+                                        <p class="content-col2-row3">
                                             <span class="text-my-regular-3">MON |</span>
-                                            <span class="text-my-bold-1 mr-3">
+                                            <span class="text-my-bold-1">
                                                 02.07.2020
                                             </span>
                                             <span class="content-3-col-1-button "><a href=""><img
@@ -195,112 +275,211 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 p-0">
-                    <div class="d-flex">
-                        <a class="text-my-regular-4 content-col-3-text1" href="">TIN GSOT</a>
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 r-3-1">
+                    <div class="d-flex r-3-1 p-0">
+                        <a class="text-my-regular-4" href="">TIN GSOT</a>
                         <a style="line-height:100%">&nbsp;|&nbsp;</a>
-                        <a class="text-my-regular-4 content-col-3-text1 mr-3" href="">KIẾN THỨC CÔNG NGHỆ</a>
-                        <a href=""><img class="grayscale content-col-3-button1"
+                        <a class="text-my-regular-4 mr-3" href="">KIẾN THỨC CÔNG NGHỆ</a>
+                        <a href=""><img class="content-col-3-button1 gray-scale"
                                 src="img/trang chu/xuat file2-25-25.png"></a>
                     </div>
-                    <hr class="hr-long mt-0 mb-0">
-                    <div class="row ">
-                        <div class="col-5 pr-0 pl-3 pt-3">
-                            <img class=" p-0 m-0" src="img/trang8/WEB SITE11-77.png" style="width: 100%;">
+                    <hr class="hr-long hr-long2 ">
+                    <div class="row r-3-1">
+                        <div class="col-5 col-5-1">
+                            <img class=" img-1" src="img/trang8/WEB SITE11-77.png" style="width: 100%;">
                         </div>
-                        <div class="col-7 pl-2 pt-2">
-                            <p class="text-my-regular-5 content-col-3-text2 mb-0 pb-0">
+                        <div class="col-7 col-7-1">
+                            <p class="text-my-regular-5">
                                 ĐÂU LÀ ĐỊA CHỈ CUNG
                                 CẤP PHẦN MỀM NHÂN
                                 SỰ TỐT NHẤT HIỆN NAY?
                             </p>
-                            <p class="text-right mb-0 pt-0 mt-0">
-                                <span class="text-my-regular-3" style="font-size: 12.66px;">MON |</span>
-                                <span class="text-my-bold-1 mr-3" style="font-size: 13.05px;">
+                            <p class="col-3-text">
+                                <span class="text-my-regular-3">MON |</span>
+                                <span class="text-my-bold-1 text-my-bold-11">
                                     02.07.2020
                                 </span>
-                                <span class="content-3-col-1-button"><a href=""><img
-                                            src="img/trang chu/xuat file2-25-25.png" style="width: 30px;"></a></span>
+                                <span class="content-3-col-1-button">&nbsp;<a href=""><img
+                                            src="img/trang chu/xuat file2-25-25.png" style="width: 25px;"></a></span>
                             </p>
                         </div>
                     </div>
-                    <hr class="hr-long mt-1 mb-0" style="background-color: #d7d7d7">
-                    <div class="row ">
-                        <div class="col-5 pr-0 pl-3 pt-3">
-                            <img class="p-0 m-0" src="img/trang8/WEB SITE11-79.png" style="width: 100%;">
+                    <hr class="hr-long mt-1 mb-0 mr-0" style="background-color: #d7d7d7">
+                    <div class="row r-3-1">
+                        <div class="col-5 col-5-1">
+                            <img class=" img-1" src="img/trang8/WEB SITE11-79.png" style="width: 100%;">
                         </div>
-                        <div class="col-7 pl-2 pt-2">
-                            <p class="text-my-regular-5 content-col-3-text2 mb-0 pb-0">
+                        <div class="col-7 col-7-1">
+                            <p class="text-my-regular-5">
                                 ĐÂU LÀ ĐỊA CHỈ CUNG
                                 CẤP PHẦN MỀM NHÂN
                                 SỰ TỐT NHẤT HIỆN NAY?
                             </p>
-                            <p class="text-right mb-0 pt-0 mt-0">
-                                <span class="text-my-regular-3" style="font-size: 12.66px;">MON |</span>
-                                <span class="text-my-bold-1 mr-3" style="font-size: 13.05px;">
+                            <p class="col-3-text">
+                                <span class="text-my-regular-3">MON |</span>
+                                <span class="text-my-bold-1 text-my-bold-11">
                                     02.07.2020
                                 </span>
-                                <span class="content-3-col-1-button"><a href=""><img
-                                            src="img/trang chu/xuat file2-25-25.png" style="width: 30px;"></a></span>
+                                <span class="content-3-col-1-button">&nbsp;<a href=""><img
+                                            src="img/trang chu/xuat file2-25-25.png" style="width: 25px;"></a></span>
                             </p>
                         </div>
                     </div>
-                    <hr class="hr-long mt-1 mb-0" style="background-color: #d7d7d7">
-                    <div class="row ">
-                        <div class="col-5 pr-0 pl-3 pt-3">
-                            <img class="p-0 m-0" src="img/trang8/WEB SITE11-77.png" style="width: 100%;">
+                    <hr class="hr-long mt-1 mb-0 mr-0" style="background-color: #d7d7d7">
+                    <div class="row r-3-1">
+                        <div class="col-5 col-5-1">
+                            <img class=" img-1" src="img/trang8/WEB SITE11-77.png" style="width: 100%;">
                         </div>
-                        <div class="col-7 pl-2 pt-2">
-                            <p class="text-my-regular-5 content-col-3-text2 mb-0 pb-0">
+                        <div class="col-7 col-7-1">
+                            <p class="text-my-regular-5">
                                 ĐÂU LÀ ĐỊA CHỈ CUNG
                                 CẤP PHẦN MỀM NHÂN
                                 SỰ TỐT NHẤT HIỆN NAY?
                             </p>
-                            <p class="text-right mb-0 pt-0 mt-0">
-                                <span class="text-my-regular-3" style="font-size: 12.66px;">MON |</span>
-                                <span class="text-my-bold-1 mr-3" style="font-size: 13.05px;">
+                            <p class="col-3-text">
+                                <span class="text-my-regular-3">MON |</span>
+                                <span class="text-my-bold-1 text-my-bold-11">
                                     02.07.2020
                                 </span>
-                                <span class="content-3-col-1-button"><a href=""><img
-                                            src="img/trang chu/xuat file2-25-25.png" style="width: 30px;"></a></span>
+                                <span class="content-3-col-1-button">&nbsp;<a href=""><img
+                                            src="img/trang chu/xuat file2-25-25.png" style="width: 25px;"></a></span>
                             </p>
                         </div>
                     </div>
-                    <hr class="hr-long mt-1 mb-0" style="background-color: #d7d7d7">
-                    <div class="row ">
-                        <div class="col-5 pr-0 pl-3 pt-3">
-                            <img class="p-0 m-0" src="img/trang8/WEB SITE11-77.png" style="width: 100%;">
+                    <hr class="hr-long mt-1 mb-0 mr-0" style="background-color: #d7d7d7">
+                    <div class="row r-3-1">
+                        <div class="col-5 col-5-1">
+                            <img class=" img-1" src="img/trang8/WEB SITE11-77.png" style="width: 100%;">
                         </div>
-                        <div class="col-7 pl-2 pt-2">
-                            <p class="text-my-regular-5 content-col-3-text2 mb-0 pb-0">
+                        <div class="col-7 col-7-1">
+                            <p class="text-my-regular-5">
                                 ĐÂU LÀ ĐỊA CHỈ CUNG
                                 CẤP PHẦN MỀM NHÂN
                                 SỰ TỐT NHẤT HIỆN NAY?
                             </p>
-                            <p class="text-right mb-0 pt-0 mt-0">
-                                <span class="text-my-regular-3" style="font-size: 12.66px;">MON |</span>
-                                <span class="text-my-bold-1 mr-3" style="font-size: 13.05px;">
+                            <p class="col-3-text">
+                                <span class="text-my-regular-3">MON |</span>
+                                <span class="text-my-bold-1 text-my-bold-11">
                                     02.07.2020
                                 </span>
-                                <span class="content-3-col-1-button"><a href=""><img
-                                            src="img/trang chu/xuat file2-25-25.png" style="width: 30px;"></a></span>
+                                <span class="content-3-col-1-button">&nbsp;<a href=""><img
+                                            src="img/trang chu/xuat file2-25-25.png" style="width: 25px;"></a></span>
                             </p>
                         </div>
                     </div>
                     <br>
+                    <div class="row padding-fb">
+                        <div class="col-lg-12 col-md-6 ">
+                            <iframe
+                                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgsotgroup%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                width="100%" height="500" style="border:none;overflow:hidden" scrolling="no"
+                                frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                        <div class="col-lg-12 col-md-6">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.110118931491!2d106.64536221425661!3d10.802877361660201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752948ab9b2d6b%3A0xdb41293c610c8f9c!2zMTI3LzIgSG_DoG5nIEhvYSBUaMOhbSwgUGjGsOG7nW5nIDEzLCBUw6JuIELDrG5oLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1595929828230!5m2!1svi!2s"
+                                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="img/8674e88d2b20d67e8f31.jpg" style="position: absolute;width: 100%;height: 60%;">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="margin-top: 10%; left: 5%;">
+                    <h3 style="font-size: 12pt;color: white;">CÔNG TY CỔ PHẦN GIẢI PHÁP THÔNG MINH XANH</h3>
+                    <div style="font-size: 12pt;color: white;">81/15/18 Huỳnh Văn Nghệ, P.12, Q., Tp. HCM
+                        Văn phòng: 127/2 Hoàng Hoa Thám, P. 13, Q. Tân Bình, Tp.HCM
+                        Điện thoại: (028) 6286 1906 - Mobile: 0966662580
+                        Email: info@gsotgroup.vn MST: 0314567061</div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="margin-top: 9%; left: 5%; ">
+                    <h3 style="font-size: 18pt;color:yellow;">LIÊN KẾT</h3>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="font-size: 13pt;color: white;">
+                            <a href="" style="color: white;">Facebook</a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="font-size: 13pt;color: white;">
+                            <a href="" style="color: white;">Pinterest</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="font-size: 13pt;color: white;">
+                            <a href="" style="color: white;">Linkedin</a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="font-size: 13pt;color: white;">
+                            <a href="" style="color: white;">Instagram</a>
+                        </div>
+                    </div>
+                    <hr style="width:100%;background-color: white;">
+                    <div style="position:relative;background-color: white;">
+                        <div class="round"></div>
+                    </div>
+                    <div class="row">
+                        <div style="font-size: 13pt;color: white;">&nbsp;&nbsp; © Copyright 2020</div>
+                    </div>
+                    <div class="row">
+                        <div style="font-size: 13pt;color: white;">&nbsp;&nbsp; All Right Reserved by GSOT</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="margin-top: 10%; left: 5%;">
+                    <br>
                     <iframe
-                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgsotgroup%2F&tabs=timeline&width=280px&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                        width="280px" height="500" style="border:none;overflow:hidden;" scrolling="no" frameborder="0"
-                        allowTransparency="true" allow="encrypted-media"></iframe>
-
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.110118931491!2d106.64536221425661!3d10.802877361660201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752948ab9b2d6b%3A0xdb41293c610c8f9c!2zMTI3LzIgSG_DoG5nIEhvYSBUaMOhbSwgUGjGsOG7nW5nIDEzLCBUw6JuIELDrG5oLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1595929828230!5m2!1svi!2s"
-                        width="280px" height="150px" frameborder="0" style="border:0;" allowfullscreen=""
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62705.622365733645!2d106.61825320086014!3d10.80354552950537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1594029457935!5m2!1svi!2s"
+                        width="80%" height="80%" frameborder="5px" style="border:5px;" allowfullscreen=""
                         aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 50) {
+                    $(".navbar-fixed-top").css("background-image", "linear-gradient(to right, #0db143,#006768)");
+                } else {
+                    $(".navbar-fixed-top").css("background-image", "linear-gradient(to right, transparent,transparent)");
+                }
+            });
+        });
+    </script>
+    <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function filterFunction() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdown");
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                } else {
+                    a[i].style.display = "none";
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>
