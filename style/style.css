@@ -4,6 +4,11 @@
     margin-right: auto;
     max-width: 1370px;
 }
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1170px !important;
+}
 .button{
     width:143px;
     height: 37px;
@@ -12,6 +17,9 @@
     border:none;
     background-image: linear-gradient(to left,#FF3600,white);
     margin-left: 15px;
+}
+.button-img{
+    cursor: pointer;
 }
 .button-upper{
     width:140px;
@@ -98,7 +106,7 @@
     font-size: 14px;
     color: #58595B;
 }
-.text-my-semi{
+.text-my-semi.text-my-semi{
     font-family: SFDisplay-SemiBold;
     font-size: 15.53px;
     color: #58595B;
@@ -147,3 +155,156 @@
     font-family: iCielSamsungSharpSans-Bold;
     color: white;
 }
+
+/* header
+ .round {
+        border: solid 1px gray;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: -21px;
+        margin-left: 50%;
+        background: white;
+    }
+
+    .round1 {
+        border: solid 1px gray;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: -21px;
+        margin-left: 1%;
+        background: white;
+    }
+    .carousel-indicators li{
+    border-radius: 50%;
+    background-color:yellow;
+    width: 10px;
+    height: 10px;
+    }
+    .carousel-indicators .active{
+        border:3px;
+        width: 30px;
+        height: 30px;
+    }
+    .icon {
+        text-align: center;
+    }
+
+    .icon1 {
+        text-align: right;
+    }
+
+    .nav-link{
+        font-family: SFDisplay-Regular;
+        font-size: 15.53px;
+        color: white !important;
+    } */
+    @media screen and (max-width:991.98px){
+.navbar-fixed-top{
+    background-image : linear-gradient(to right, #0db143,#006768) !important;
+}
+.show {display: inline-block}
+    } 
+    /* search */
+    #myInput {
+  box-sizing: border-box;
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  max-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  left:-180px;
+  top:50px;
+}
+
+
+
+.show {display: block;float: right}
+
+.chutrang a{
+    color: white !important;
+    font-size: 19px !important;
+    font-weight: 500;
+}
+.menu {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.menu::after{
+    position:absolute;
+    content:"|";
+    color: white;
+    right: -7px;
+    top: 10px;
+    font-weight: 10;
+    font-size: 15px;
+}
+/* slideshow */
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: rgb(28, 248, 219) !important;
+    padding: 5px !important;
+}
+.carousel-indicators .active {
+    border: 3px solid #00FFEC!important;
+    border-radius: 50%!important;
+    border-left: 3px solid transparent!important;
+    width: 40px!important;
+    height: 40px!important;
+    background-color: transparent !important;
+    animation: spin 2s linear infinite;
+}
+.carousel-indicators .active span{
+    display:block;
+    font-family:SFDisplay-Bold;
+    text-align: center!important;
+    font-size: 18px !important;
+    line-height: 40px;
+    text-indent: initial!important;
+    background: linear-gradient(to bottom right, #009CFF,#008FFF,#002A9A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: no-spin 2s linear infinite!important;
+}
+@keyframes spin {
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(360deg)
+    }
+  }
+@keyframes no-spin {
+    from {
+      transform: rotate(360deg)
+    }
+    to {
+      transform: rotate(0deg)
+    }
+  }
+

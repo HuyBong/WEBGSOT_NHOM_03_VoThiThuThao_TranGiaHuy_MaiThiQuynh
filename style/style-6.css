@@ -80,6 +80,7 @@
 .content-1-5-col-2{
     border-right:1px solid lightgrey;
     margin-top: 0px;
+    padding-left:12px;
 }
 .content-1-5-col4-text{
     padding-left:15px;
@@ -88,13 +89,29 @@
     padding-bottom:5px;
 }
 .content-1-5-col-3{
-    border-left:1px solid white;
-    border-right:1px solid white;
+    border-left:3px solid white;
+    border-right:3px solid white;
     height: 100px;
 }
 .content-1-5-col-4{
-    border-right:1px solid white;
+    border-right:3px solid white;
     height: 100px;
+}
+.content-1-5-col-mid{
+    padding-left:8px; 
+    padding-right:0px; 
+}
+.content-up{
+    margin-top: -220px;
+    margin-left: -16px;
+}
+.text-my-semi-2::after{
+    content:"";
+    background-color:white;
+    height: 3px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 /* content-1-6 */
 .content-1-6{
@@ -129,9 +146,186 @@
 }
 .content-col-2-form{
     height:170px !important;
-    width: 280px !important;
+    width: auto !important;
 
+}
+.content-col-2-text-my-bold::after{
+    content :"";
+    display:block;
+    background-color: #ffca05;
+    width: 20%;
+    height: 3px;
+    opacity: 0;
+    margin-top: 3px;
+}
+.content-col-2-text-my-bold:hover::after{
+    opacity: 1;
 }
 .content-col-2-pic-fbgsot{
     width:280px;
 }
+
+/* cotxanh */
+.cotxanh1{
+    margin-right:-2px;
+}
+.cotxanh2{
+    margin-right:-1px;
+}
+.cotxanh3{
+    margin-left:-1px;
+    margin-right:-2px;
+}
+.cotxanh4{
+    margin-right: 0px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+.content-1-text{
+    text-align: left;
+    font-size: 17px;
+}
+.content-1-5{
+  height: 900px;
+}
+.content-1-5-col-4{
+    border:none;
+    padding: 0px;
+    margin:0px;
+}
+.content-1-5-col-3{
+    border:none;
+}
+.content-1-5-col{
+    border:1px solid lightgrey;
+}
+.content-1-5-col-2{
+    border:1px solid lightgrey;
+    padding-bottom:30px;
+    padding-top:10px;
+}
+.content-1-5-col-mid{
+    padding-left:0px; 
+    padding-right:0px; 
+}
+.textcenter-5{
+    text-align:center !important;
+}
+.text-my-semi-2::after{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.content-1-text{
+    text-align: left;
+    font-size: 23px;
+}
+.content-1-5{
+  height: 860px;
+}
+.content-1-5-col-4{
+    border:none;
+    padding: 0px;
+    margin:0px;
+}
+.content-1-5-col-3{
+    border:none;
+}
+.content-1-5-col{
+    border:1px solid lightgrey;
+}
+.content-1-5-col-2{
+    border:1px solid lightgrey;
+    padding-bottom:30px;
+    padding-top:10px;
+}
+.content-1-5-col-mid{
+    padding-left:0px; 
+    padding-right:0px; 
+}
+.textcenter-5{
+    text-align:center !important;
+}
+.text-my-semi-2::after{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.content-1-text{
+    text-align: left;
+    font-size: 28px;
+}
+.content-1-5{
+  height: 500px;
+}
+.content-1-5-col-4{
+    border:none;
+    padding:0px;
+    margin:0px;
+}
+.content-1-5-col-3{
+    border:none;
+}
+.content-1-5-col{
+    border:1px solid lightgrey;
+}
+.content-1-5-col-2{
+    border:1px solid lightgrey;
+}
+.content-1-5-col-mid{
+    padding-left:0px; 
+    padding-right:0px; 
+}
+.textcenter-5{
+    text-align:center !important;
+}
+.text-my-semi-2::after{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .content-1-text{
+    text-align: left;
+    font-size: 35px;
+}
+.content-1-5{
+  height: 350px;
+}
+.content-1-5-col-4{
+    border:none;
+    padding: 0px;
+    margin:0px;
+}
+.content-1-5-col-3{
+    border:none;
+}
+.content-1-5-col{
+    border:1px solid lightgrey;
+    height: 300px;
+}
+.content-1-5-col-2{
+    border:1px solid lightgrey;
+    padding-top:10px;
+}
+.content-1-5-col-mid{
+    padding-left:0px; 
+    padding-right:0px; 
+}
+.textcenter-5{
+    text-align:center !important;
+}
+.text-my-semi-2::after{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+ }
